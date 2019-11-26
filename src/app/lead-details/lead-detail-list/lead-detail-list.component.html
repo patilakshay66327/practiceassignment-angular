@@ -1,0 +1,9 @@
+<table class="table table-hover">
+    <tr *ngFor="let ld of service.list">
+        <td (click)="populateForm(ld)">{{ld.leadId}}</td>
+        <td (click)="populateForm(ld)">{{ld.leadFirstName}}</td>
+        <td (click)="populateForm(ld)">{{ld.leadLastName}}</td>
+        <td (click)="populateForm(ld)">{{ld.leadAddress}}</td>
+        <td (click)="populateForm(ld)">{{ld.leadEmail}}</td>
+    </tr>
+</table>
